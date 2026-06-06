@@ -1,0 +1,285 @@
+{
+    "status": "success",
+    "data": {
+        "overall_summary": {
+            "kpi_cards": {
+                "total_calls": 3,
+                "success_rate": 100.0,
+                "avg_response_length": 3861,
+                "total_tokens": 7451,
+                "avg_total_tokens": 2483.7,
+                "avg_input_tokens": 261.0,
+                "avg_output_tokens": 1075.0,
+                "avg_thought_tokens": 1147.7,
+                "avg_logprobs": -0.4849,
+                "unique_models": 1,
+                "unique_agents": 1,
+                "unique_workflows": 1
+            },
+            "daily_trend": [
+                {
+                    "date": "2026-05-28",
+                    "calls": 3,
+                    "success_rate": 100.0,
+                    "total_tokens": 7451
+                }
+            ],
+            "token_distribution": [
+                {
+                    "range": "1000-1999",
+                    "count": 1
+                },
+                {
+                    "range": "2000-4999",
+                    "count": 2
+                }
+            ],
+            "model_breakdown": [
+                {
+                    "model_version": "gemini-2.5-flash",
+                    "calls": 3,
+                    "success_rate": 100.0,
+                    "avg_total_tokens": 2483.7,
+                    "avg_input_tokens": 261.0,
+                    "avg_output_tokens": 1075.0,
+                    "avg_thought_tokens": 1147.7,
+                    "avg_response_length": 3861
+                }
+            ],
+            "agent_breakdown": [
+                {
+                    "agent_author": "Travel_Assistant",
+                    "calls": 3,
+                    "success_rate": 100.0,
+                    "total_tokens": 7451,
+                    "avg_tokens": 2483.7,
+                    "models": [
+                        "gemini-2.5-flash"
+                    ],
+                    "workflows": [
+                        "test_ex_a"
+                    ],
+                    "workflow_count": 1
+                }
+            ]
+        },
+        "workflows": [
+            {
+                "workflow_name": "test_ex_a",
+                "workflow_id": "4ed15d0e-c03b-42cb-9a5f-ec6526d8eeb4",
+                "total_executions": 5,
+                "kpi_cards": {
+                    "total_calls": 3,
+                    "success_rate": 100.0,
+                    "avg_response_length": 3861,
+                    "total_tokens": 7451,
+                    "avg_total_tokens": 2483.7,
+                    "avg_input_tokens": 261.0,
+                    "avg_output_tokens": 1075.0,
+                    "avg_thought_tokens": 1147.7,
+                    "avg_logprobs": -0.4849,
+                    "unique_models": 1,
+                    "unique_agents": 1,
+                    "unique_workflows": 1
+                },
+                "daily_trend": [
+                    {
+                        "date": "2026-05-28",
+                        "calls": 3,
+                        "success_rate": 100.0,
+                        "total_tokens": 7451
+                    }
+                ],
+                "token_distribution": [
+                    {
+                        "range": "1000-1999",
+                        "count": 1
+                    },
+                    {
+                        "range": "2000-4999",
+                        "count": 2
+                    }
+                ],
+                "model_breakdown": [
+                    {
+                        "model_version": "gemini-2.5-flash",
+                        "calls": 3,
+                        "success_rate": 100.0,
+                        "avg_total_tokens": 2483.7,
+                        "avg_input_tokens": 261.0,
+                        "avg_output_tokens": 1075.0,
+                        "avg_thought_tokens": 1147.7,
+                        "avg_response_length": 3861
+                    }
+                ],
+                "agent_breakdown": [
+                    {
+                        "agent_author": "Travel_Assistant",
+                        "calls": 3,
+                        "success_rate": 100.0,
+                        "total_tokens": 7451,
+                        "avg_tokens": 2483.7,
+                        "models": [
+                            "gemini-2.5-flash"
+                        ],
+                        "workflows": [
+                            "test_ex_a"
+                        ],
+                        "workflow_count": 1
+                    }
+                ],
+                "workflow_breakdown": [
+                    {
+                        "s_no": 1,
+                        "workflow_name": "test_ex_a",
+                        "workflow_id": "4ed15d0e-c03b-42cb-9a5f-ec6526d8eeb4",
+                        "calls": 3,
+                        "success_rate": 100.0,
+                        "total_tokens": 7451,
+                        "agents": [
+                            "Travel_Assistant"
+                        ],
+                        "models": [
+                            "gemini-2.5-flash"
+                        ],
+                        "last_seen": "2026-05-28T18:52"
+                    }
+                ],
+                "recent_calls": [
+                    {
+                        "s_no": 1,
+                        "record_datetime": "2026-05-28T18:52:26",
+                        "execution_id": "efe4407f-f520-49",
+                        "workflow_name": "test_ex_a",
+                        "parent_node": "agent",
+                        "tool_name": "api",
+                        "agent_author": "Travel_Assistant",
+                        "model_version": "gemini-2.5-flash",
+                        "is_success": true,
+                        "finish_reason": "STOP",
+                        "total_tokens": 3147,
+                        "input_tokens": 261,
+                        "output_tokens": 1208,
+                        "thought_tokens": 1678,
+                        "response_length": 4259,
+                        "avg_logprobs": -0.5463325551014073,
+                        "invocation_id": "e-de3fd301-c2af-4c75-b142-e31410d57fac"
+                    },
+                    {
+                        "s_no": 2,
+                        "record_datetime": "2026-05-28T10:54:30",
+                        "execution_id": "0518808f-758f-46",
+                        "workflow_name": "test_ex_a",
+                        "parent_node": "agent",
+                        "tool_name": "api",
+                        "agent_author": "Travel_Assistant",
+                        "model_version": "gemini-2.5-flash",
+                        "is_success": true,
+                        "finish_reason": "STOP",
+                        "total_tokens": 1902,
+                        "input_tokens": 261,
+                        "output_tokens": 891,
+                        "thought_tokens": 750,
+                        "response_length": 3183,
+                        "avg_logprobs": -0.448791743662756,
+                        "invocation_id": "e-7bf87252-726b-43da-9db0-9091e78b7989"
+                    },
+                    {
+                        "s_no": 3,
+                        "record_datetime": "2026-05-28T10:54:23",
+                        "execution_id": "52f477b0-979f-47",
+                        "workflow_name": "test_ex_a",
+                        "parent_node": "agent",
+                        "tool_name": "api",
+                        "agent_author": "Travel_Assistant",
+                        "model_version": "gemini-2.5-flash",
+                        "is_success": true,
+                        "finish_reason": "STOP",
+                        "total_tokens": 2402,
+                        "input_tokens": 261,
+                        "output_tokens": 1126,
+                        "thought_tokens": 1015,
+                        "response_length": 4142,
+                        "avg_logprobs": -0.4595908779869282,
+                        "invocation_id": "e-0eec489f-d6aa-4b63-a086-1aec51b5fd58"
+                    }
+                ],
+                "raw_records": [
+                    {
+                        "execution_id": "52f477b0-979f-4776-9c34-53a11b09f912",
+                        "workflow_id": "4ed15d0e-c03b-42cb-9a5f-ec6526d8eeb4",
+                        "workflow_name": "test_ex_a",
+                        "record_datetime": "2026-05-28T10:54:23",
+                        "parent_node": "agent",
+                        "tool_name": "api",
+                        "agent_author": "Travel_Assistant",
+                        "model_version": "gemini-2.5-flash",
+                        "invocation_id": "e-0eec489f-d6aa-4b63-a086-1aec51b5fd58",
+                        "finish_reason": "STOP",
+                        "agent_timestamp": "2026-05-28T05:23:45.501999",
+                        "is_success": true,
+                        "status_code": 200,
+                        "avg_logprobs": -0.4595908779869282,
+                        "response_length": 4142,
+                        "input_tokens": 261,
+                        "output_tokens": 1126,
+                        "thought_tokens": 1015,
+                        "total_tokens": 2402
+                    },
+                    {
+                        "execution_id": "0518808f-758f-4618-b66d-000a33ae2a8b",
+                        "workflow_id": "4ed15d0e-c03b-42cb-9a5f-ec6526d8eeb4",
+                        "workflow_name": "test_ex_a",
+                        "record_datetime": "2026-05-28T10:54:30",
+                        "parent_node": "agent",
+                        "tool_name": "api",
+                        "agent_author": "Travel_Assistant",
+                        "model_version": "gemini-2.5-flash",
+                        "invocation_id": "e-7bf87252-726b-43da-9db0-9091e78b7989",
+                        "finish_reason": "STOP",
+                        "agent_timestamp": "2026-05-28T05:23:57.546581",
+                        "is_success": true,
+                        "status_code": 200,
+                        "avg_logprobs": -0.448791743662756,
+                        "response_length": 3183,
+                        "input_tokens": 261,
+                        "output_tokens": 891,
+                        "thought_tokens": 750,
+                        "total_tokens": 1902
+                    },
+                    {
+                        "execution_id": "efe4407f-f520-496a-9bc8-ba64fa8fbadc",
+                        "workflow_id": "4ed15d0e-c03b-42cb-9a5f-ec6526d8eeb4",
+                        "workflow_name": "test_ex_a",
+                        "record_datetime": "2026-05-28T18:52:26",
+                        "parent_node": "agent",
+                        "tool_name": "api",
+                        "agent_author": "Travel_Assistant",
+                        "model_version": "gemini-2.5-flash",
+                        "invocation_id": "e-de3fd301-c2af-4c75-b142-e31410d57fac",
+                        "finish_reason": "STOP",
+                        "agent_timestamp": "2026-05-28T13:21:37.371425",
+                        "is_success": true,
+                        "status_code": 200,
+                        "avg_logprobs": -0.5463325551014073,
+                        "response_length": 4259,
+                        "input_tokens": 261,
+                        "output_tokens": 1208,
+                        "thought_tokens": 1678,
+                        "total_tokens": 3147
+                    }
+                ]
+            }
+        ]
+    },
+    "metadata": {
+        "org_id": "72ad9d8d-3f27-4c20-b8d2-396ce35f3ead",
+        "project_id": "cd3248d6-d155-4503-9af7-54adace6e422",
+        "time_range": "30d",
+        "start_date": null,
+        "end_date": null,
+        "total_workflows": 1,
+        "total_executions_analyzed": 140,
+        "generated_at": "2026-06-05T20:30:50.231369"
+    }
+}
