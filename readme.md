@@ -20,6 +20,7 @@
 <br>
 
 fetch data from JSON file.
+data.json -> index.js  -> home.ejs
 
 <br>
 
