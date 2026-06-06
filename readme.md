@@ -15,10 +15,7 @@
   - [10. Open in Browser](#10-open-in-browser)
 
 <!-- TOC-END -->
-
-That's a good idea. A README looks more professional when every step has a short explanation.
-
-You can update the **Project Setup** section like this:
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/79c5c827-7e41-41bf-a2f8-1d8f46b4ca39" />
 
 ## Project Setup
 
@@ -60,6 +57,7 @@ npm install ejs
 Install Nodemon to automatically restart the server whenever files change during development.
 
 ```bash
+npm install nodemon 
 npm install nodemon --save-dev
 ```
 
@@ -108,6 +106,7 @@ Use Nodemon for automatic server restarts during development.
 
 ```bash
 npx nodemon index.js
+nodemon index.js
 ```
 
 ### 10. Open in Browser
@@ -117,5 +116,3 @@ Access the dashboard from your browser.
 ```text
 http://localhost:3200
 ```
-
-This style is common in professional GitHub repositories because it explains **what the command does** rather than only showing the command.
