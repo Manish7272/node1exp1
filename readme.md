@@ -15,6 +15,14 @@
   - [10. Open in Browser](#10-open-in-browser)
 
 <!-- TOC-END -->
+
+<br>
+<br>
+
+fetch data from JSON file.
+
+<br>
+
 <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/79c5c827-7e41-41bf-a2f8-1d8f46b4ca39" />
 
 ## Project Setup
